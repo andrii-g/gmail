@@ -30,13 +30,15 @@ public class TestClass {
     private String absolutePath = null;
     private String baseUrl = "https://mail.google.com";
     private String nextButtonLocator = "//input[@id='next']";
-    private String expectedErrorText = "Введите адрес электронной почты.";
+//    private String expectedErrorText = "Введите адрес электронной почты.";
+//    private String expectedEmailErrorText = "Введите допустимый адрес электронной почты.";
+    private String expectedEmailErrorText = "Please enter a valid email address.";
+    private String expectedErrorText = "Please enter your email.";
     private String errorLocator = "//*[@id='errormsg_0_Email']";
     private String emailInputLocator = "//*[@id='Email']";
     private String passwordLocator = "//*[@id='Passwd']";
     private String signInLocator = "//*[@id='signIn']";
     private String invalidEmail = "@%";
-    private String expectedEmailErrorText = "Введите допустимый адрес электронной почты.";
     private String validEmail = "andrygrigoryk@gmail.com";
     private String emailPass = "salmon123";
     private String staySignedInCheckboxLocator = "//*[@id='PersistentCookie']";
